@@ -111,7 +111,7 @@ p{
 }
 .navbar-brand {
     display: block;
-    max-width: 80px ;
+    max-width: 100px;
     width: 100% ;
 }
 footer .navbar-brand{
@@ -122,6 +122,11 @@ footer .navbar-brand{
     width: 100% ;
 }
 
+@media (max-width: 576px) {
+    .navbar-brand {
+        max-width: 50px ;
+    }
+}
 .navbar .navbar-nav .nav-link {
     font-family: var(--font-quick);
     margin-right: 25px;
