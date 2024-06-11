@@ -111,7 +111,7 @@ p{
 }
 .navbar-brand {
     display: block;
-    max-width: 100px;
+    max-width: 130px;
     width: 100% ;
 }
 footer .navbar-brand{
@@ -284,6 +284,9 @@ footer .navbar-brand{
 .product {
     background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/product-bg.png) left bottom no-repeat;
     background-size: auto;
+}
+.product-2 {
+    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1));
 }
 
 .product-carousel .owl-nav {
