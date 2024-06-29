@@ -285,6 +285,25 @@ footer .navbar-brand{
     background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/product-bg.png) left bottom no-repeat;
     background-size: auto;
 }
+.we-deal-in .product-item .pro-img{
+overflow: hidden;
+}
+.we-deal-in .product-item .pro-img img{
+transition: all 1s;
+}
+.we-deal-in .product-item:hover .pro-img img{
+transform: scale(1.2);
+}
+.we-deal-in .product-item .bg-white,
+.we-deal-in .product-item h4{
+transition: all 1s;
+}
+.we-deal-in .product-item:hover h4{
+    color: var(--light) !important;
+}
+.we-deal-in .product-item:hover .bg-white{
+background-color: var(--primary) !important;
+}
 .product-2 {
     background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1));
 }
